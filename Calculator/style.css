@@ -1,0 +1,50 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-sizing: border-box;
+
+}
+/*Whole page*/
+.container{
+    width: auto;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main{
+    background: black;
+    padding: 20px;
+    border-radius: 10px;
+
+}
+.main form input{
+    border: 0;
+    outline: 0;
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    box-shadow: -8px -8px 15px rgb(20, 29, 46),5px 5px 15px rgb(12, 25, 50) ;
+    font-size: 20px;
+    margin: 3px;
+}
+form .output{
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px 0;
+
+}
+form .output input{
+    text-align: right;
+    flex: 1;
+    font-size: 40px;
+    box-shadow: none;
+}
+form input.equal{
+    width: 138px;
+}
+form .cal{
+    color: rgb(89, 53, 143);
+    font-weight: 900;
+}
